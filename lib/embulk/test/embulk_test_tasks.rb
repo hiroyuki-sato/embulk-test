@@ -1,7 +1,7 @@
 namespace :embulk do
   namespace :test do
     desc "Download embulk.jar file"
-    task :download_embulk do
+    task :download_jar do
       require 'open-uri'
       require 'fileutils'
       url = "https://dl.embulk.org/embulk-latest.jar"
